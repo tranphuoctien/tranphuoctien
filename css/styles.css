@@ -1,0 +1,228 @@
+.email:before {
+    content: '\0073\0074\0061\0072\0073\0068\0069\006E\0065\0076\0069\0065\0074\006E\0061\006D\0040\0067\006D\0061\0069\006C\002E\0063\006F\006D';
+}
+.phone:before{
+    content: '\002B\0038\0034\0020\0033\0035\0020\0039\0031\0030\0020\0031\0035\0039\0030';
+}
+@media (min-width: 960px)
+{
+    #skills-modal .modal-content {
+        width: 960px;
+    }
+}
+
+.skill-set{
+    max-width: 40rem;
+    position: relative;
+    padding: 1.5rem;
+}
+
+.page-bg {
+    background-image: url('../img/background.jpg') !important;
+    background-color: #1c1c1c !important;
+    background-size: cover;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    opacity: 0.85;
+}
+
+.profile {
+    border-radius: 90px;
+}
+
+/* Meters */
+
+.meter {
+    height: 24px;
+    position: relative;
+    border: 1px solid #f1f1f1;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    margin-bottom: 1em;
+}
+
+    .meter > span {
+        display: block;
+        height: 100%;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        position: relative;
+        overflow: hidden;
+    }
+
+        .meter > span > span {
+            margin-left: 4px;
+            color: #fff;
+        }
+
+        .meter > span:after, .animate > span > span {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            background-image: -webkit-gradient(linear, 0 0, 100% 100%, color-stop(.25, rgba(255, 255, 255, .2)), color-stop(.25, transparent), color-stop(.5, transparent), color-stop(.5, rgba(255, 255, 255, .2)), color-stop(.75, rgba(255, 255, 255, .2)), color-stop(.75, transparent), to(transparent) );
+            background-image: -moz-linear-gradient( -45deg, rgba(255, 255, 255, .2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, .2) 50%, rgba(255, 255, 255, .2) 75%, transparent 75%, transparent );
+            z-index: 1;
+            -webkit-background-size: 50px 50px;
+            -moz-background-size: 50px 50px;
+            -webkit-animation: move 2s linear infinite;
+            -webkit-border-top-right-radius: 8px;
+            -webkit-border-bottom-right-radius: 8px;
+            -moz-border-radius-topright: 8px;
+            -moz-border-radius-bottomright: 8px;
+            border-top-right-radius: 8px;
+            border-bottom-right-radius: 8px;
+            -webkit-border-top-left-radius: 20px;
+            -webkit-border-bottom-left-radius: 20px;
+            -moz-border-radius-topleft: 20px;
+            -moz-border-radius-bottomleft: 20px;
+            border-top-left-radius: 20px;
+            border-bottom-left-radius: 20px;
+            overflow: hidden;
+        }
+
+.animate > span:after {
+    display: none;
+}
+
+@-webkit-keyframes move {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 50px 50px;
+    }
+}
+
+.emerald > span {
+    background-color: #2ecc71;
+}
+
+.carrot > span {
+    background-color: #e67e22;
+}
+
+.wisteria > span {
+    background-color: #8e44ad;
+}
+
+.sunflower > span {
+    background-color: #f1c40f;
+}
+
+.midnight > span {
+    background-color: #2c3e50;
+}
+
+.pomengrate > span {
+    background-color: #c0392b;
+}
+
+.asbestos > span {
+    background-color: #7f8c8d;
+}
+
+.nostripes > span > span, .nostripes > span:after {
+    -webkit-animation: none;
+    background-image: none;
+}
+
+.grapefruit > span {
+    background-color: #ED5565;
+}
+
+.bittersweet > span {
+    background-color: #FC6E51;
+}
+
+.grass > span {
+    background-color: #A0D468;
+}
+
+.mint > span {
+    background-color: #48CFAD;
+}
+
+.aqua > span {
+    background-color: #4FC1E9;
+}
+
+.bluejeans > span {
+    background-color: #5D9CEC;
+}
+
+.lavender > span {
+    background-color: #AC92EC;
+}
+
+.pinkrose > span {
+    background-color: #EC87C0;
+}
+
+.lightgray > span {
+    background-color: #F5F7FA;
+}
+
+.mediumgray > span {
+    background-color: #CCD1D9;
+}
+
+.darkgray > span {
+    background-color: #656D78;
+}
+
+body::-webkit-scrollbar {
+    width: 0 !important
+}
+
+body {
+    -ms-overflow-style: none;
+}
+
+
+/* css shake style */
+
+.profile:hover {
+    animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+
+@keyframes shake {
+    10%, 90% {
+        transform: translate3d(-1px, 0, 0);
+    }
+
+    20%, 80% {
+        transform: translate3d(2px, 0, 0);
+    }
+
+    30%, 50%, 70% {
+        transform: translate3d(-4px, 0, 0);
+    }
+
+    40%, 60% {
+        transform: translate3d(4px, 0, 0);
+    }
+}
+
+ul.work li{
+    margin-top:15px;
+}
+ul.work li:nth-child(1)
+{
+    margin-top:0;
+}
+ul.work li > h6 
+{
+    font-style: italic;
+}
+    ul.work li > h6:before {
+        content: 'Company: ';
+    }

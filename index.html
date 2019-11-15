@@ -1,0 +1,304 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tien Tran</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <section class="hero is-primary is-fullheight page-bg">
+        <!-- Hero header: will stick at the top -->
+        <div class="hero-header">
+            <header class="header">
+                <div class="container">
+                    <div class="header-left">
+                        <div class="header-item">
+                            <h1 class="title"></h1>
+                        </div>
+                    </div>
+                    <div class="header-right header-menu is-mobile">
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- section content: will be in the middle -->
+        <section class="section">
+            <div class="container">
+                <div class="columns is-centered">
+                    <article class="media">
+                        <div class="media-left">
+                            <figure class="image is-128x128">
+                                <img src="https://avatars3.githubusercontent.com/u/7386993?s=460&v=4" class="profile">
+                            </figure>
+                        </div>
+                        <div class="media-content">
+                            <div class="content">
+                                <h1 class="title is-1">
+                                    Tien Tran (TPT)
+                                </h1>
+                                <p class="subtitle is-3">
+                                    Senior Software Engineering
+                                </p>
+                            </div>
+                            <div class="buttons">
+                                <button class="button">
+                                    <span class="icon">
+                                        <i class="fab fa-github"></i>
+                                    </span>
+                                    <a class="is-inverted" href="https://github.com/tranphuoctien" target="_blank">
+                                        Github Profile
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+                <div class="columns is-centered">
+                    <div class="skill-set">
+                        <div class="tags">
+                            <span class="tag is-primary">Golang</span>
+                            <span class="tag is-primary">Echo</span>
+                            <span class="tag is-primary">PHP</span>
+                            <span class="tag is-primary">NodeJS</span>
+                            <span class="tag">Go Micro</span>
+                            <span class="tag">Docker</span>
+                            <span class="tag">Docker Compose</span>
+                            <span class="tag">K8s</span>
+                            <span class="tag is-primary">MongoDB</span>
+                            <span class="tag">GAE</span>
+                            <span class="tag">HTML+CSS+jQuery</span>
+                            <span class="tag">Angular 2x+ and 1x</span>
+                            <span class="tag">VueJS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns is-centered">
+                    <nav class="tabs is-boxed is-fullwidth">
+                        <div class="container">
+                            <ul>
+                                <li>
+                                    <a onclick="toggleClass('work-experience-modal')">
+                                        <span class="icon">
+                                            <i class="fa fa-briefcase"></i>
+                                        </span>
+                                        Work Experience
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="toggleClass('skills-modal')">
+                                        <span class="icon">
+                                            <i class="fa fa-code-fork"></i>
+                                        </span>
+                                        Skills
+                                    </a>
+                                </li>
+                                <li>
+                                    <a onclick="toggleClass('contact-modal')">
+                                        <span class="icon">
+                                            <i class="fa fa-envelope-o "></i>
+                                        </span>
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </section>
+        <!-- Hero footer: will stick at the bottom -->
+        <div class="hero-footer"></div>
+    </section>
+
+    <div class="modal" id="work-experience-modal">
+        <div class="modal-background" onclick="toggleClass('work-experience-modal');"></div>
+        <div class="modal-content">
+            <div class="box">
+                <div class="content">
+                    <h1 class="title is-text-centered"> Work Experience</h1>
+                    <ul class="no-list work">
+                        <li>
+                            <h5 class="title is-5">Senior Software Engineer<span
+                                    class="tag is-success is-pulled-right">MID 2019-Present</span></h5>
+                            <h6>Scommerce</h6>
+                            <blockquote>
+                                <p class="tag is-primary is-light">Thank to MR.Tan</p>
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Senior Web Developer</h5>
+                            <h6>Restaff</h6>
+                            <blockquote>
+                                Progressing detect object Person, Car, Bike, Vehicle plate
+                                <br /><br />
+                                Designing and Developing new services using Nodejs, PHP, Golang, MongoDB.
+                                <br /><br />
+                                Full-Stack development of BuildOS existing portals through Nodejs, PHP, Laravel, VueJS
+                                ,jQuery, HTML and CSS.
+                                <br /><br />
+                                Creating and implementing Golang, Echo, Go-Micro to new service and complex pipeline
+                                mongodb queries.
+                                <br /><br />
+                                Docker, Docker compose to package modules for easy deploy
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Software Engineer</h5>
+                            <h6>GHN</h6>
+                            <blockquote>
+                                Implement development of api.ghn.vn
+                                <br /><br />
+                                Implement new service internal using Golang, RabbitMQ, Mux
+                                <br /><br />
+                                Full Stack Development of projects using Golang, Zend Framework 2, MongoDB, RabbitMQ,
+                                Javascript, jQuery, HTML, CSS and Bootstrap.
+                                <br /><br />
+                                <p class="tag is-primary is-light">Thanks to Tuan leader</p>
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Web Developer</h5>
+                            <h6>IMT Solution</h6>
+                            <blockquote>
+                                Working directly with client
+                                <br /><br />
+                                Full Stack Development using Postgres, NodeJS, Angular 2+, Javascript, jQuery, HTML and
+                                CSS.
+                                <br /><br />
+                                Handle fix update, optimize database for old application.
+                                <br /><br />
+                                <p class="tag is-primary is-light"> Thanks to Pham Tu</p>
+                            </blockquote>
+                        </li>
+                        <li>
+                            <h5 class="title is-5">Startup 2T Phim</h5>
+                            <h6>Owner</h6>
+                            <blockquote>
+                                Full stack development of Web Applications using NodeJS, Angular 1x, MongoDB, PHP,
+                                jQuery, HTML and CSS.
+                                <br /><br />
+                                So sad it's not success. But I have experience.
+                                <br /><br />
+                                <p class="tag is-primary is-light">Full thanks to Tien Nguyen.</p>
+                            </blockquote>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('work-experience-modal'); event.stopPropagation();"></button>
+    </div>
+
+    <div class="modal" id="skills-modal">
+        <div class="modal-background" onclick="toggleClass('skills-modal');"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column">
+                            <h1 class="title is-text-centered">Development</h1>
+                            <div class="meter emerald">
+                                <span style="width: 90%"><span>Golang</span></span>
+                            </div>
+                            <div class="meter carrot">
+                                <span style="width: 90%"><span>Echo Framework</span></span>
+                            </div>
+                            <div class="meter grapefruit">
+                                <span style="width: 90%"><span>NodeJS</span></span>
+                            </div>
+                            <div class="meter wisteria">
+                                <span style="width: 85%"><span>Docker/Docker Compose</span></span>
+                            </div>
+                            <div class="meter pomengrate">
+                                <span style="width: 80%"><span>PHP</span></span>
+                            </div>
+                            <div class="meter grass">
+                                <span style="width: 60%"><span>MongoDB</span></span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Front-end</h1>
+                            <div class="meter sunflower">
+                                <span style="width: 80%"><span>HTML5</span></span>
+                            </div>
+                            <div class="meter mint">
+                                <span style="width: 75%"><span>CSS</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 75%"><span>Angular 2+</span></span>
+                            </div>
+                            <div class="meter aqua">
+                                <span style="width: 70%"><span>jQuery</span></span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Engineering</h1>
+                            <div class="meter bluejeans">
+                                <span style="width: 90%"><span>Software Architecture</span></span>
+                            </div>
+                            <div class="meter sunflower">
+                                <span style="width: 90%"><span>Enterprise Applications</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 75%"><span>Cloud Computing</span></span>
+                            </div>
+                            <div class="meter grass">
+                                <span style="width: 75%"><span>DevOps</span></span>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <h1 class="title is-text-centered">Management</h1>
+                            <div class="meter lavender">
+                                <span style="width: 80%"><span>Mentoring</span></span>
+                            </div>
+                            <div class="meter mint">
+                                <span style="width: 70%"><span>Leadership</span></span>
+                            </div>
+                            <div class="meter sunflower">
+                                <span style="width: 50%"><span>Agile/Scrum</span></span>
+                            </div>
+                            <div class="meter asbestos">
+                                <span style="width: 70%;font-size: 0.8em;"><span>Requirements Engineering</span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('skills-modal'); event.stopPropagation();"></button>
+    </div>
+
+    <div class="modal" id="contact-modal">
+        <div class="modal-background" onclick="toggleClass('contact-modal');"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="box">
+                    <div class="columns">
+                        <div class="column is-text-centered">
+                            <h1 class="title "><i class="fa fa-map-marker"></i> Address</h1>
+                            <p>Sai Gon - Viet Nam</p>
+                        </div>
+                        <div class="column is-text-centered">
+                            <h1 class="title"><i class="fa fa-mobile"></i> Phone</h1>
+                            <p class="phone"></p>
+                        </div>
+                        <div class="column is-text-centered">
+                            <h1 class="title"><i class="fa fa-envelope"></i> Mail</h1>
+                            <p class="email">
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="modal-close" onclick="toggleClass('contact-modal'); event.stopPropagation();"></button>
+    </div>
+    <script src="js/main.js" type="text/javascript"></script>
+</body>
+
+</html>
