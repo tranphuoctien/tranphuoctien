@@ -1,7 +1,7 @@
 # myself
 Personal about me
 
-https://myself.serverapi.host/
+https://myself.serverapi.net/
 
 <hr>
 <div align="left">
